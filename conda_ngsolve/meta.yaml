@@ -1,0 +1,20 @@
+package:
+  name: ngsolve
+  version: "6.2.1706"
+
+requirements:
+  build:
+    - python 3.6.1
+    - netgen
+    - cmake
+  run:
+    - python 3.6.1
+    - netgen
+
+source:
+  git_url: https://git.code.sf.net/p/ngsolve/git
+  git_rev: v6.2.1706
+
+about:
+  home: bla
+  license: LGPL

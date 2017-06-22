@@ -1,0 +1,12 @@
+diff --git a/ng/Togl2.1/togl.c b/ng/Togl2.1/togl.c
+index 67f1339..5377c28 100644
+--- a/ng/Togl2.1/togl.c
++++ b/ng/Togl2.1/togl.c
+@@ -15,6 +15,7 @@
+  */
+ 
+ #define USE_TOGL_STUB_PROCS
++#define CONST86 const
+ #include "togl.h"
+ #include <tkInt.h>   // don't need it on osx ???
+ #include <limits.h>
