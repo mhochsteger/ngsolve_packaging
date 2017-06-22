@@ -7,13 +7,15 @@ requirements:
     - python 3.6.1
     - jpeg
     - cmake
+    - git
     - tk
-    - xorg-libxmu
+    - xorg-libxmu # [not win]
   run:
     - python 3.6.1
     - jpeg
     - tk
-    - xorg-libxmu
+    - zlib
+    - xorg-libxmu # [not win]
 
 source:
   git_url: https://git.code.sf.net/p/netgen-mesher/git
